@@ -1,6 +1,6 @@
-// 2023/03/25
-// 내 코드의 문제점
-// m의 크기가 커진다면 시간 초과 판정을 받음
+# 2023/03/25
+# 내 코드의 문제점
+# m의 크기가 커진다면 시간 초과 판정을 받음
 n, m, k = map(int, input().split(' '))
 arr = list(map(int, input().split()))
 
@@ -17,7 +17,7 @@ for i in range(m):
 print(result)
 
 
-// 시간복잡도 고려해서 문제풀기!
+# 시간복잡도 고려해서 문제풀기!
 n, m, k = map(int, input().split(' '))
 arr = list(map(int, input().split()))
 
